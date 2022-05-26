@@ -1,0 +1,112 @@
+
+.elsGame{
+    background-image:url(../../assets/images/elskiller.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+
+.suspectGame{
+    background-image:url(../../assets/images/elskiller.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    overflow:hidden;
+ 
+}
+.links{
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.links>ul{
+  list-style: none;
+}
+.links>ul>li{
+  margin-top:50px;
+}
+.gamelinks{
+  padding:1rem 3rem 1rem 3rem;
+    text-decoration: none;
+    font-family:fantasy;
+    font-size:1rem;
+    background-color: rgb(243, 240, 240);
+    width:5rem;
+    
+}
+.hair{
+  position:fixed;
+  width: 120px;
+  height:120px;
+  top:150px;
+  left:400px;
+}
+.knife{
+  position:fixed;
+  width: 115px;
+  height:190px;
+  top:50px;
+  left:665px;
+}
+.suspectlist{
+ display: flex;
+ width:80%;
+ margin-left: 15%;
+ margin-right:10%;
+ padding-top:30px;
+ flex-wrap: wrap;
+}
+.suspect{
+    width:250px;
+    height:auto;
+    padding-bottom:1rem;
+    margin-left:50px;
+    margin-bottom: 50px;
+}
+.stext{
+    color:white;
+    font-size:1.2rem;
+    background-color: rgba(103, 103, 104, 0.473);
+    padding-left:1rem;
+    padding-right:1rem;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+.sbutton{
+  margin-left: 20%;
+   
+}
+.instruction{
+    color:rgb(226, 225, 225);
+    font-size: 1.2rem;
+    text-align: center;
+}
+.backlink{
+    padding:1rem 2rem 1rem 2rem;
+    text-decoration: none;
+    font-family:fantasy;
+    font-size:1.2rem;
+    background-color: rgb(243, 240, 240);
+    width:5rem;
+    position: fixed;
+    top:80px;
+  }
+.timer{
+    color:white;
+    float:right;
+    margin-right: 30px;
+    padding-top:20px;
+}
+
+.gameinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-text{
+  color:white;
+  font-size:1.5rem;
+}

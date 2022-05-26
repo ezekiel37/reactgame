@@ -1,0 +1,33 @@
+.gameContainer{
+    width:33.3%;
+    min-height:auto;
+    border: 2px solid rgb(134, 136, 134);
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.gameContainer>h3{
+    margin:0px;
+    padding: 0px;
+    font-size:1.5rem; 
+}
+.gameContainer>p{
+    margin:0px;
+    padding: 0px;
+    font-size:1rem;
+}
+.gameImg{
+    width:100%;
+}
+.startButton{
+    padding:1rem 3rem 1rem 3rem;
+    text-decoration: none;
+    font-family:fantasy;
+    font-size:1.5rem;
+    background-color: rgb(243, 240, 240);
+    width:33%;
+    margin-left:20%;
+}

@@ -1,0 +1,24 @@
+.boxedMan{
+    background-image:url(../../assets/images/boxedman.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    
+}
+.boxedMan>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.gamelink{
+    padding:1rem 3rem 1rem 3rem;
+      text-decoration: none;
+      font-family:fantasy;
+      font-size:1.5rem;
+      background-color: rgb(243, 240, 240);
+      width:5rem;
+      margin-left: 30px;
+    
+  }
